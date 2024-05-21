@@ -38,6 +38,7 @@ def supportsNamespace() {
     return major >= 8
 }
 
+def reactNativeRootDir = file("${rootProject.projectDir}/../node_modules/react-native")
 def reactProperties = new Properties()
 file("$reactNativeRootDir/ReactAndroid/gradle.properties").withInputStream { reactProperties.load(it) }
 
