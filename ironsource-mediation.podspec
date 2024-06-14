@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.source_files = "ios/IronSourceMediation/**/*.{h,m,mm}"
 
   s.dependency "React-Core"
-  s.dependency "IronSourceSDK","7.9.1.0"
+  s.dependency "IronSourceSDK","7.9.0.0"
 end
